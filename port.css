@@ -1,0 +1,64 @@
+* {
+    background-color: #0f0909;
+    color: rgb(247, 12, 12);
+}
+
+.name {
+    font-size: 1 rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(10px 10px 10px orangered);
+    color: red;
+
+
+}
+
+.banner {
+    background-image: url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 448px;
+    background-color: #111;
+    margin: 0cm;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+    margin: 1% 0.5%;
+}
+
+.poster {
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+}
+
+.poster {
+    font-weight: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    font-size: 25px;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: 100;
+    font-size: large;
+    padding: 0.2% 0%;
+}
